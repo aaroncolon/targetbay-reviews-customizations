@@ -6,15 +6,15 @@
 (function() {
   var acTargetBay = (function() {
     var CLASS_REVIEWS_COUNT = 'targetbay-reviews-count-field',
-    	  ID_SITE_REVIEWS     = 'targetbay_site_reviews', // the floating "reviews" tab
+        ID_SITE_REVIEWS     = 'targetbay_site_reviews', // the floating "reviews" tab
         ID_PRODUCT_REVIEWS  = 'targetbay_reviews', // the main reviews section
-    	  $body;
+        $body;
 
     function init() {
       if (window.location.pathname !== '/products/protein') {
-      	cacheDom();
-      	bindEvents();
-      	handleSiteReviewsModuleLoad();
+        cacheDom();
+        bindEvents();
+        handleSiteReviewsModuleLoad();
       } else {
         cacheDom();
         bindEvents();
