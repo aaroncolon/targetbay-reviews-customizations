@@ -2,8 +2,8 @@
 JS customizations made on TargetBay's BayReviews widgets
 
 ## Overview
-* Uses MutationObservers to add missing unique IDs and classes to product reviews
-* Uses MutationObservers to reposition some product review elements with jQuery's `appendTo()`
+* Uses MutationObserver to add missing unique IDs and classes to product reviews
+* Uses MutationObserver to reposition some product review elements with jQuery's `appendTo()`
 
 ## Background
 In April of 2021, a client wanted customizations made to the TargetBay Reviews widgets on their site. 
